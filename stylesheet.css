@@ -315,6 +315,12 @@ html {
   }
 }
 
+.pad {
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0%;
+}
 .sectionboxoneteam{
 	display: flex; /* make it so the text boxes can stack if screen is smaller */
 	flex-direction: row;
