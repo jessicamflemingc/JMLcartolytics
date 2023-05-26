@@ -322,11 +322,11 @@ footer {
   background-color: #E1E1E1;
   color: black;
   text-align: center;
-  padding: 60px;
+  padding: 30px;
 }
 
 .footer a {
-  color: #ffffff;
+  color: black;
   text-align: center;
   text-decoration: none;
   padding: 8px 22px;
