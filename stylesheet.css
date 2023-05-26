@@ -315,3 +315,27 @@ html {
   }
 }
 
+footer {
+	left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E1E1E1;
+  color: black;
+  text-align: center;
+  padding: 60px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer a:hover {
+  background-color: #bfbfbf;
+  color: black;
+}
