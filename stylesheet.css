@@ -307,14 +307,14 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #6C6C6C;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #A1A1A1;
 }
 
 @media screen and (max-width: 650px) {
