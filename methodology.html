@@ -31,10 +31,13 @@ h1, h2, h3, h4, h5, h6 {
   </div>
 </div>
 <!-- Begin methodology write up -->
-  <h1> Methodology </h1>
-  <h2> The requested deliverables for NCC was a finalized geodatabase, an interactive web map as well as a static map. </h2>
-  <h3> The methods used to achieve these deliverables are described below. </h3>
-  <p></p>
+<div class="w3-display-center w3-padding-large w3-opacity">
+  <h1 class="w3-xxlarge">Methodology</h1>
+  <h1 class="w3-xlarge">The requested deliverables for NCC was a finalized geodatabase, an interactive web map as well as a static map. The methods used to achieve these deliverables are described below.</h1>
+</div>
+  
+<div class="w3-row w3-padding-64" id="about">
+ <div class="w3-col m6 w3-padding-large w3-hide-small">
   <h2>Geodatabase</h2>
   <h3>Data Acquisition and Pre-Processing:</h3>
   <p>Created in arcgis pro. It consisted of setting up the projection to NAD 1983 UTM Zone 17N and the default clipping extent to the study area created by jml cartolytics.  Reference data such as the carden alvar boundary, ecological land classification (ELC), protected areas which was clipped and queried to only show the ncc properties within the study area as well as some SCOOP imagery were provided from NCC. Open-source data was acquired from eBird and iNaturalist to display species in the area with a special interest of at-risk species. These were combined into one table and cleaned in Microsoft Access and then clipped to the ELC. Landsat imagery from USGS and GEE was also collected for every 5 years from 1972-2022 with the exception of 2012 which was replaced with 2013 imagery as 2012 had no usable imagery. </p>
@@ -46,5 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     Created in ArcGIS PRO and displays a side-by-side comparison of the 1972 and 2022 classifications with the 1972-2022 compute change overlain on the imagery to highlight the losses and gains of alvars through time. A table was included to show the changes in alvar composition for each year that was classified.
   <h2>Interactive map - AGOL Dashboard</h2>
   <p>An interactive map was designed to highlight changes alvar composition through time and the current species at risk in the Carden Alvar Area.</p> 
+ </div>
+</div>
+   
 </body>
 </html>
