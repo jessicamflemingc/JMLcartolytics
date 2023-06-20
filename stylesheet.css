@@ -353,3 +353,7 @@ footer {
   background-color: #bfbfbf;
   color: black;
 }
+
+.img-right {
+	position: relative;
+	float: right;
