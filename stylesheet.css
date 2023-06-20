@@ -357,3 +357,12 @@ footer {
 .img-right {
 	position: relative;
 	float: right;
+}
+.body-format {
+	background-color: #f5f5f5;
+	padding: 2% 4%;
+}
+@media (max-width: 1400px){ /*Responsive */
+      .body-format {
+          flex-direction: column;
+        }}
