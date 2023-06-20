@@ -357,6 +357,8 @@ footer {
 .img-right {
 	position: relative;
 	float: right;
+	border: solid;
+	border-color: slategray;
 }
 .body-format {
 	background-color: #f5f5f5;
