@@ -375,7 +375,15 @@ footer {
 	background-color: #f5f5f5;
 	padding: 2% 4%;
 }
+
+.column {
+	float: left;
+	width: 100%;
+	padding: 1%;
+}
+
 @media (max-width: 1400px){ /*Responsive */
       .body-format .img-right {
           flex-direction: column;
         }
+
