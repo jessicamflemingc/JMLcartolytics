@@ -365,6 +365,11 @@ footer {
 .mainbody-format {
 	padding: 2% 6%;
 }
+.img-main {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	
 
 .body-format {
 	background-color: #f5f5f5;
