@@ -56,11 +56,21 @@ h1, h2, h3, h4, h5, h6 {
   <p>Classifications for the Landsat imagery was performed in PCI Geomatics CATALYST with a supervised per-pixel classification. The classes created were industrial, emergent vegetation, bare ground, water, wetland, deciduous forest and coniferous forest. Compute changes were then done in ArcGIS Pro between each chronological pair of imagery as well as one from start year to end year to display the changes in alvar composition through time. </p>
   </div>
   <div class = "w3-col m6 column">
+   <figure>
+    <img src = "classification1.jpg" class = "img-right" alt="gdb layout" width = "749" height = "435">
+    <figcaption class = "fig-caption"> Figure 2: Unsupervised on the left and supervised on the right.</figcaption>
+   </figure>
+  </div>
+  
+  <div class = "w3-col m6 column">
   <h4>Result:</h4>
   <p>The final geodatabase contains 2 feature datasets, 7 feature classes, 4 rasters, 2 joins on the clipped species data with the elc and ncc properties as well as metadata for the feature classes and rasters. Three of the rasters are the 1972, 1997, 2022 classifications and one of the rasters is the compute change from 1972-2022 that were used in the static map.</p>
   </div>
   <div class = "w3-col m6 column">
+    <figure>
     <img src = "gdb.jpg" class = "img-right" alt="final GDB" width = "284" height = "334">
+     <figcaption class = "fig-caption"> Figure 3: Final geodatabase contents.</figcaption>
+   </figure>
   </div>
   <h2 class="w3-center"> Static map</h2>
     <p>Created in ArcGIS PRO and displays a side-by-side comparison of the 1972 and 2022 classifications with the 1972-2022 compute change overlain on the imagery to highlight the losses and gains of alvars through time. A table was included to show the changes in alvar composition for each year that was classified.</p>
