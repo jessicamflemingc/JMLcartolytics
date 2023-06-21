@@ -41,10 +41,12 @@ h1, h2, h3, h4, h5, h6 {
 <div class = "mainbody-format">
 <div class="body-format w3-row">
   <h2 class="w3-center">Geodatabase</h2>
-  <div>
+  <div class ="w3-col m6">
   <h4>Data Acquisition and Processing:</h4>
   <p>Created in ArcGIS Pro. It consisted of setting up the projection to NAD 1983 UTM Zone 17N and the default clipping extent to the study area created by jml cartolytics.  Reference data such as the carden alvar boundary, ecological land classification (ELC), protected areas which was clipped and queried to only show the ncc properties within the study area as well as some SCOOP imagery were provided from NCC. Open-source data was acquired from eBird and iNaturalist to display species in the area with a special interest of at-risk species. These were combined into one table and cleaned in Microsoft Access and then clipped to the ELC. Landsat imagery from USGS and Google Earth Engine (GEE) was also collected for every 5 years from 1972-2022 with the exception of 2012 which was replaced with 2013 imagery as 2012 had no usable imagery. </p>
-   <img src = "cardenalvar3.jpg" class = "img-right" alt="gdb layout" width = "475" height = "420">
+  </div>
+  <div class = w3-col>
+    <img src = "cardenalvar2.jpg" class = "img-right" alt="gdb layout" width = "707" height = "537">
   </div>
   <h4>Spatial Analysis:</h4>
   <p>Classifications for the Landsat imagery was performed in PCI Geomatics CATALYST with a supervised per-pixel classification. The classes created were industrial, emergent vegetation, bare ground, water, wetland, deciduous forest and coniferous forest. Compute changes were then done in ArcGIS Pro between each chronological pair of imagery as well as one from start year to end year to display the changes in alvar composition through time. </p>
@@ -57,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     <img src = "gdb.jpg" class = "img-right" alt="final GDB" width = "284" height = "334">
   </div>
   <h2 class="w3-center"> Static map</h2>
-    Created in ArcGIS PRO and displays a side-by-side comparison of the 1972 and 2022 classifications with the 1972-2022 compute change overlain on the imagery to highlight the losses and gains of alvars through time. A table was included to show the changes in alvar composition for each year that was classified.
+    <p>Created in ArcGIS PRO and displays a side-by-side comparison of the 1972 and 2022 classifications with the 1972-2022 compute change overlain on the imagery to highlight the losses and gains of alvars through time. A table was included to show the changes in alvar composition for each year that was classified.</p>
   <h2 class="w3-center">Interactive map</h2>
   <p>An interactive map was designed to highlight changes alvar composition through time and the current species at risk in the Carden Alvar Area.</p> 
  </div>
