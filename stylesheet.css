@@ -410,7 +410,6 @@ footer {
 }
 
 .fig-caption {
-     margin: 1em 40px;
      display: flex;
      align-items: center;
      align-content: center;
@@ -422,4 +421,4 @@ footer {
       .body-format .img-right {
           flex-direction: column;
         }
-
+}
