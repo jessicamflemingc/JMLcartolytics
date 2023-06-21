@@ -411,7 +411,7 @@ footer {
 
 .fig-caption {
      display: flex;
-     align-items: center;
+     align-items: flex-start;
      align-content: center;
      flex-direction: column;
      justify-content: center;
