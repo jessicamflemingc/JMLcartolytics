@@ -392,6 +392,22 @@ footer {
 	padding: 1%;
 }
 
+.button {
+  background-color: slategray; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button: hover {
+	background-color: gray;
+	
 @media (max-width: 1400px){ /*Responsive */
       .body-format .img-right {
           flex-direction: column;
