@@ -415,7 +415,7 @@ footer {
      align-content: center;
      flex-direction: column;
      justify-content: center;
-
+}
 		
 @media (max-width: 1400px){ /*Responsive */
       .body-format .img-right {
