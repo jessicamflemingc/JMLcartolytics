@@ -369,6 +369,6 @@ footer {
 	padding: 2% 4%;
 }
 @media (max-width: 1400px){ /*Responsive */
-      .body-format {
+      .body-format .img-right {
           flex-direction: column;
         }
