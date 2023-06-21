@@ -377,7 +377,7 @@ footer {
 }
 
 .column {
-	float: right;
+	float: left;
 	width: 100%;
 	padding: 1%;
 }
