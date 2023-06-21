@@ -407,7 +407,16 @@ footer {
 }
 .button: hover {
 	background-color: gray;
-	
+
+.fig-caption {
+     margin: 1em 40px;
+     display: flex;
+     align-items: center;
+     align-content: center;
+     flex-direction: column;
+     justify-content: center;
+
+		
 @media (max-width: 1400px){ /*Responsive */
       .body-format .img-right {
           flex-direction: column;
