@@ -359,6 +359,8 @@ footer {
 	position: relative;
 	border: solid;
 	border-color: slategray;
+	max-width: 100%
+	height: auto;
 }
 .mainbody-format {
 	padding: 2% 6%;
