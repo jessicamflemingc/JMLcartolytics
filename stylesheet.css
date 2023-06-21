@@ -279,7 +279,11 @@ html {
   margin-bottom: 16px;
   padding: 0 8px;
 }
-
+.column1 {
+	float: left;
+	width: 100%;
+	padding: 1%;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
@@ -324,7 +328,7 @@ html {
 }
 
 @media screen and (max-width: 650px) {
-  .column {
+  .column .column1{
     width: 100%;
     display: block;
   }
@@ -386,11 +390,7 @@ footer {
 	padding: 2% 4%;
 }
 
-.column {
-	float: left;
-	width: 100%;
-	padding: 1%;
-}
+
 
 .button {
   background-color: slategray; 
