@@ -425,3 +425,12 @@ footer {
           flex-direction: column;
         }
 }
+
+
+
+@media (max-width: 1200px){
+   .sectionboxoneprojects{
+        flex-direction: column;
+    }
+}
+
