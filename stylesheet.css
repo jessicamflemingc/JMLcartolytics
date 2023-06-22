@@ -420,7 +420,7 @@ footer {
      margin: 1px;
 } 
 		
-@media (max-width: 1400px){ /*Responsive */
+@media (max-width: 650px){ /*Responsive */
       .body-format .img-right {
           flex-direction: column;
         }
