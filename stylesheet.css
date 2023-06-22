@@ -278,7 +278,9 @@ html {
   width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
+  display: inline-table;
 }
+
 .column1 {
 	float: left;
 	width: 100%;
