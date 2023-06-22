@@ -417,6 +417,7 @@ footer {
      flex-direction: column;
      justify-content: center;
      font-size: smaller;
+     margin: 1px;
 }
 		
 @media (max-width: 1400px){ /*Responsive */
