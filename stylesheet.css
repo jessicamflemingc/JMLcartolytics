@@ -421,6 +421,19 @@ footer {
      font-size: smaller;
      margin: 1px;
 } 
+.btn {
+  background-color: #E1E1E1;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #C0C0C0;
+}
 		
 @media (max-width: 650px){ /*Responsive */
       .body-format .img-right {
